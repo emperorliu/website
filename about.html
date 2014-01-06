@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>About Me</title>
+		<link rel="stylesheet" media="all" href="css/resumestyle.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$( document ).ready(function() {
+				 /* $(".underconstruction").click(function(e) {
+				 e.preventDefault();
+				  alert( "Handler for .click() called." );
+				}); */
+				 var str = $(".currentpage").text();
+				$("#yourehere").html(str);
+			});
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="container">
+				<h2><a href="jeff.com">Jeff.com</a></h2>
+				<ul>
+					<li><a class="currentpage" href="about.html">About Me</a></li>
+					<li><a href="jeffresume.html">Resume</a></li>
+					<li><a class="underconstruction" href="music.html">Music</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<p>Hi, this is Jeff's page. Welcome.</p>
+			<!-- <iframe width="560" height="315" src="//www.youtube.com/embed/6HzyUHxmkg0" frameborder="0" allowfullscreen></iframe> -->
+		</div>
+		<div id="footer">
+			<div class="container">
+				<h3>Footer</h3>
+				<p>You are on the <span id="yourehere"></span> page.</p>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<title>Jeff's Resume</title>
+		<link rel="stylesheet" media="all" href="css/resumestyle.css">
+		<!--[if IE 6]>
+		<link rel="stylesheet" media="all" href="css/resumestyle.css">
+		<![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$( document ).ready(function() {
+				 /* $(".underconstruction").click(function(e) {
+				 e.preventDefault();
+				  alert( "We're sorry, but come back later." );
+				}); */
+				 var str = $(".currentpage").text();
+				$("#yourehere").html(str);
+			});
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="container">
+				<h2><a href="jeff.com">Jeff.com</a></h2>
+				<ul>
+					<li><a href="about.html">About Me</a></li>
+					<li><a class="currentpage" href="jeffresume.html">Resume</a></li>
+					<li><a class="underconstruction" href="music.html">Music</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="header">
+				<h1>Jeffrey Liu</h1>
+				<p>1591 28th Ave, San Francisco, CA 94122 | 415.307.1270 | <a href="mailto:JL@berkeley.edu">JL@berkeley.edu</a></p>
+			</div>
+			<br />
+			<h4>EDUCATION</h4>
+			<br />
+			<p class="leftColumn">University of California, Berkeley</p>
+			<p class="rightColumn">GPA: 3.2</p>
+			<p>B.A. International Trade Relations, Jun 2012</p>
+			<p id="coursework">Relevant Coursework: International Business | Economics | Calculus | Linear Algebra | Accounting | Marketing</p>
+			<br />
+			<h4>PROFESSIONAL EXPERIENCE</h4>
+			<br />
+			<!-- Is it better to put everything that needs to be italic in a class, or just use <em> -->
+			<!-- Can divs overlap? -->
+			<p class="company leftColumn">Peek</p>
+			<p class="rightColumn">San Francisco, CA</p>
+			<p class="position leftColumn">Internal Sales Engineer</p>
+			<p class="rightColumn">Apr '13 - Oct '13</p>
+			<ul>
+				<li>Oversaw and managed the Peek Booking Tools product; implemented our tools on 50+ partners' websites</li>
+				<li>Established strong vendor relationships and trained partners on Peek's back-end booking reservation system</li>
+				<li>Acted as a liaison between the engineering and sales teams; identified opportunities for process optimization</li>
+				<li>Built over 150 activity pages for Peek's marketplace and facilitated the production team through the Las Vegas, Philadelphia, Washington D.C., Chicago, Seattle, Paris, and London launches</li>
+			</ul>
+			<br />
+			<p class="company leftColumn">Practice Fusion</p>
+			<p class="rightColumn">San Francisco, CA</p>
+			<p class="position leftColumn">Account Manager Intern</p>
+			<p class="rightColumn">May '11 - Aug '11</p>
+			<ul>
+				<li>Constructed 23 analysis reports on business processes' effectiveness by mastering NetSuite's CRM software</li>
+				<li>Redesigned and updated the sales team's metrics screen; produced reports for better pipeline management</li>
+				<li>Marketed patient walkthroughs using Eventbrite to increase customer engagement with a shotgun approach</li>
+				<li>Handled over 3,000 chat cases and voicemails, and helped the team recover after a power outage</li>
+			</ul>
+			<br />
+			<p class="company leftColumn">Mindjet</p>
+			<p class="rightColumn">San Francisco, CA</p>
+			<p class="position leftColumn">Product Management Intern</p>
+			<p class="rightColumn">Jun '10 - Sept '10</p>
+			<ul>
+				<li>Performed competitive analysis on mindmapping competitors across desktop and mobile platforms</li>
+				<li>Conducted market analysis and devised a strategy for penetration by segmenting vertical industries</li>
+				<li>Created 16 map templates and 18 video tutorials for MindManager9, released to over 2 million users</li>
+				<li>Organized over 500 user feedback to determine specific feature requests and bug defects for MindManager8</li>
+			</ul>
+			<br />
+			<h4>ACTIVITIES</h4>
+			<br />
+			<p class="company leftColumn">Terrene Synergetics</p>
+			<p class="rightColumn">Berkeley, CA</p>
+			<p class="position leftColumn">Lead Analyst of Wind Power</p>
+			<p class="rightColumn">Feb '10 - Jan '12</p>
+			<ul>
+				<li>Managed industry research archive of the wind power sector in newly founded renewable energy think tank</li>
+				<li>Researched developing wind power technologies and policy, compiled research reports & oral presentations</li>
+				<li>Analyzed financial and economic feasibility of comparable industry technologies, such as solar, coal, and oil</li>
+			</ul>
+			<br />
+			<p class="company leftColumn">Associated Students of the University of California (ASUC)
+			<p class="rightColumn">Berkeley, CA</p>
+			<p class="position leftColumn">Intern to the Academic Affairs Vice President, Finance Committee</p>
+			<p class="rightColumn">Feb '10 - Jan '12</p>
+			<ul>
+				<li>Helped devise and implement an initiative to construct a new student union near administrative headquarters</li>
+				<li>Collaborated with a team of 6 to initiate ideas and proposals to fund large-scale projects through the ASUC</li>
+			</ul>
+			<br />
+			<h4>SKILLS</h4>
+			<br />
+			<p><strong>Technical skills:</strong> Microsoft Office, NetSuite, Salesforce, Python, HTML, CSS, C++, Java, SQL, Photoshop</p>
+			<p><strong>Languages:</strong> Proficient in Mandarin and Cantonese</p>
+			<p><strong>Distinctions:</strong> Winner at 2010 Berkeley Mobile Startup Challenge, winner at 2010 Venture Lab Competition</p>
+			<p><strong>Interests:</strong> Music production, DJ-ing, violin (10+ years), badminton, social media, entrepreneurship, sailing</p>
+		</div>
+		<div id="footer">
+			<div class="container">
+				<h3>Footer</h3>
+				<p>You are on the <span id="yourehere"></span> page.</p>
+			</div>
+		</div>
+	</body>
+</html>

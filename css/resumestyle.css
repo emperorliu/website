@@ -1,0 +1,147 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#coursework {
+	color: gray;
+}
+
+#songname {
+	color: gray;
+}
+
+#songdescription {
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#albumcover{
+	display: inline-block;
+}
+
+.musicRight{
+	width: 240px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.container {
+	width: 705px;
+	margin: 0 auto 50 auto;
+	padding-top: 100px;
+}
+
+#header .container {
+	margin: 0 auto 0 auto;
+	padding: 15px 0 15px 0;
+}
+
+.company {
+	font-weight: bold;
+}
+
+.position {
+	font-style: italic;
+}
+
+.header {
+	text-align: center;
+}
+
+.rightColumn {
+	width: 276px;
+	display: inline-block;
+	text-align: right;
+	color: gray;
+}
+
+.leftColumn {
+	width: 420px;
+	display: inline-block;
+}
+
+h4, #header, #footer {
+	background-color: #e8e8e8;
+	padding: 5px 0;
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
+}
+
+.musicBlock{
+	display: inline-block;
+	width: 256px;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.musicContainer {
+	padding: 15px 0;
+	border-top: 2px black solid;
+}
+
+.musicContainer:last-child {
+	border-bottom: 2px black solid;
+}
+
+/* List styling */
+
+ul {
+	padding-left: 18px;
+}
+
+#header ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+#header li a {
+	background-color: #DFD5B1;
+	padding: 10px;
+	color: #FCF6E0;
+	text-decoration: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #c8cbb0; /* Old browsers */
+	background: -moz-linear-gradient(top, #c8cbb0 0%, #dfd5b1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c8cbb0), color-stop(100%,#dfd5b1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #c8cbb0 0%,#dfd5b1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #c8cbb0 0%,#dfd5b1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #c8cbb0 0%,#dfd5b1 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #c8cbb0 0%,#dfd5b1 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8cbb0', endColorstr='#dfd5b1',GradientType=0 ); /* IE6-9 */
+}
+
+#header li a:hover {
+	color: #453B31;
+}
+
+#header ul {
+	margin-top: 10px;
+	padding-left: 0px;
+	margin-bottom: 10px;
+}
+
+#header h2 a {
+	text-decoration: none;
+	color: black;
+	margin-right: 10px;
+}
+
+#header h2, #header ul {
+	display: inline;
+}
+
+#header {
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+#header .currentpage {
+	background-color: #C8CBB0;
+}
+
